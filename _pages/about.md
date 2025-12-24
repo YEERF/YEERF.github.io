@@ -17,43 +17,105 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, everyone! I am a second-year student at Beijing Jiaotong University and Lancaster University, currently working under the supervision of Prof. <a href="https://yanwang202199.github.io/">Wangyan</a> at the Institute for AI Industry Research (AIR), Tsinghua University as a research intern.
+Hi, everyone! I am an undergraduate student in Communication Engineering at **Beijing Jiaotong University** and **Lancaster University** (expected graduation: **Jun 2027**).  
+I am currently a research intern at the **Institute for AI Industry Research (AIR), Tsinghua University**, supervised by Prof. **Yan Wang**.
 
-My research interests focus on computer vision (CV), including generative models(eg: diffusion posterior sampling) and AI_based data compression. 
-<!--I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).-->
+My research interests focus on **Computer Vision (CV)** and **embodied intelligence**, especially **generative models (diffusion / Flow Matching)**, **inverse problems**, and **diffusion-based world models** for robust long-horizon prediction and planning under distribution shift (OOD).
 
+---
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.10*: Started working on **Test-Time Training for Robot Navigation World Models**, focusing on reducing OOD drift and stabilizing long-horizon rollouts.
+- *2025.08*: Completed a summer internship at **Wuxi Research Institute of Applied Technologies (Tsinghua University)** on **VLA and World Models for Robot Manipulation and Navigation**.
+- *2025.05*: Received **S Award** in the **Mathematical Contest in Modeling (MCM)**.
+- *2025.01*: Joined **AIR, Tsinghua University** as a research intern and worked on **Diffusion Models for Inverse Problems**.
 
-# 📝 Publications 
+---
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+# 📝 Manuscripts in Preparation / Projects
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Project</div>
+      <img src='images/500x300.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**A Low- and High-Frequency Fusion Framework for Anti-UAV Detection and Tracking**  
+- Proposed a **low-/high-frequency fusion** framework for robust anti-UAV detection and tracking under **low-light** and **dynamic-background** scenarios.  
+- Designed a **Decoupling Light and Reconstructing (DLR)** module to disentangle illumination cues and extract **light-source-aware low-frequency** features.  
+- Developed a **Null Space Super-Resolution Model (NSRM)** to recover **high-frequency motion details** via null-space decomposition and super-resolution.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+  </div>
 </div>
+
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Project</div>
+      <img src='images/500x300.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**Diffusion Models for Inverse Problems**  
+- Studied **diffusion** and **Flow Matching** theory and used it to guide model design for **fast image generation**.  
+- Reproduced a **Shortcut single-step diffusion** model on canonical inverse problems, implementing forward operators and noise models, and benchmarking speed–quality trade-offs.
+
+  </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <div class="badge">Ongoing</div>
+      <img src='images/500x300.png' alt="sym" width="100%">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
+
+**Test-Time Training for Robot Navigation World Models (Working on)**  
+- Proposed a **distribution-consistency** strategy to reduce **OOD drift** in diffusion-based world model planning.  
+- Used an **offline expert reference set** and a **similarity-based guidance** signal during sampling to stabilize **long-horizon rollouts**.
+
+  </div>
+</div>
+
+---
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.05* **S Award**, Mathematical Contest in Modeling (MCM)
+- *2024.05* **Beijing Municipal Undergraduate Innovation Project**
+
+---
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2023.09 - present*, **Beijing Jiaotong University**, China  
+  Bachelor of Engineering in **Communication Engineering** (expected in **Jun 2027**)
+- *2023.09 - present*, **Lancaster University**, UK
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+---
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2025.07 - 2025.08*, **Algorithm Intern**, Wuxi Research Institute of Applied Technologies, Tsinghua University  
+  **VLA and World Models for Robot Manipulation and Navigation**  
+  - Integrated a robotic arm and multi-sensor stack (camera, force & torque) in **ROS2**, and debugged end-to-end communication for stable runtime operation.  
+  - Implemented model-to-control interfaces for **VLA models (Pi0-series and world-model inference)**, enabling direct execution of predicted actions on the robot.  
+  - Validated grasping, placement, and container-operation demos with **sim-to-real consistency** by unifying observation/action formats and task scripts.
+
+---
+
+# 🧰 Skills
+- **Programming**: Python, PyTorch; multi-GPU distributed training and debugging  
+- **Foundations**: Computer Vision and VLA; familiar with diffusion models and recent VLA methods  
+- **Research**: end-to-end research execution (modeling, experiments, paper writing)  
+- **Hardware**: schematic and multi-layer PCB design  
+- **English**: CET-4 535; CET-6 455; preparing for TOEFL
+
+---
+
+# 📫 Contact
+- **Email**: 23721030@bjtu.edu.cn  
+- **Tel**: (+86) 13326268486
